@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procent.Samples.ExternalIntegration.Subversion", "Procent.Samples.ExternalIntegration.Subversion\Procent.Samples.ExternalIntegration.Subversion.csproj", "{200115F4-5438-41D1-87BC-84A7FEB4C8BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{4F66B078-E8F9-45CF-91D9-F1D5C0D9EA1F}"
+	ProjectSection(SolutionItems) = preProject
+		material.txt = material.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubversionIntegration.WinForms", "SubversionIntegration.WinForms\SubversionIntegration.WinForms.csproj", "{6D5ED758-5E6F-4195-991F-58999610E58B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{200115F4-5438-41D1-87BC-84A7FEB4C8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200115F4-5438-41D1-87BC-84A7FEB4C8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200115F4-5438-41D1-87BC-84A7FEB4C8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200115F4-5438-41D1-87BC-84A7FEB4C8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5ED758-5E6F-4195-991F-58999610E58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5ED758-5E6F-4195-991F-58999610E58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5ED758-5E6F-4195-991F-58999610E58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5ED758-5E6F-4195-991F-58999610E58B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal
